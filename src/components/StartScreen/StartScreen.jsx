@@ -44,7 +44,7 @@ export const StartScreen = () => {
 
       <div className="color"></div>
       <div className="name__container">
-        <h1>Manu & hanu</h1>
+        <h1>Manu & Hanu</h1>
         <h5>We're getting married</h5>
         <h1>Nov 19 2023</h1>
         <h1>09-41 Am </h1>
