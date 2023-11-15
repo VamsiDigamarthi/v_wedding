@@ -1,0 +1,230 @@
+.start__main {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  background-image: linear-gradient(to right, #093028, #237a57);
+}
+
+.start__image {
+  width: 100%;
+  height: 57%;
+}
+
+/* .color {
+  background-color: red;
+  position: absolute;
+  top: 270px;
+  width: 130px;
+  height: 130px;
+  z-index: -100;
+  filter: blur(30px);
+} */
+
+.name__container > h1 {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Bad Script", cursive;
+  font-family: "Edu TAS Beginner", cursive;
+  color: white;
+}
+.name__container > h5 {
+  color: rgb(235, 187, 117);
+}
+
+.name__container > hr {
+  width: 50%;
+}
+
+.start__div {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: -0.8rem;
+  line-height: 1;
+}
+
+.start__div > h1 {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Bad Script", cursive;
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 50px;
+  color: #ffd900;
+}
+
+.start__div > div {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  position: relative;
+  /* border: 1px solid red; */
+  width: 80%;
+}
+
+.start__div > div > :nth-child(1) {
+  font-size: 29px;
+  color: white;
+  font-weight: bold;
+  color: #ffd900;
+}
+.start__div > div > :nth-child(2) {
+  font-size: 20px;
+  color: #ffd900;
+  font-weight: bold;
+  position: absolute;
+  top: 16px;
+  left: 40%;
+  color: white;
+}
+
+.start__div > div > :nth-child(3) {
+  font-size: 29px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: -22px;
+  right: 0;
+  color: #ffd900;
+}
+
+.start__div > img {
+  width: 80%;
+  height: 170px;
+}
+
+.start_-_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  padding: 30px;
+}
+
+.start_-_name > img {
+  width: 50%;
+  border-radius: 15px;
+  height: 150px;
+}
+
+.start_-_name > h1 {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Bad Script", cursive;
+  font-family: "Edu TAS Beginner", cursive;
+  color: #ffd900;
+}
+.dd {
+  position: relative;
+}
+
+.gilr_image {
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+  width: 300px;
+}
+
+.funtion > h1 {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Bad Script", cursive;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.funtion > img {
+  height: 200px;
+  width: 50%;
+  border: 5px solid #ffd900;
+}
+
+.viwe__map {
+  border: 2px solid #ffd900;
+  margin: 20px;
+  padding: 6px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 0;
+  /* border-radius: 8px; */
+  position: relative;
+}
+
+.sss {
+  /* height: 270px; */
+}
+.sss > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sss > div > span {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.viwe__map > img {
+  position: absolute;
+  width: 160px;
+  right: -30px;
+  top: -30px;
+}
+.viwe__map > h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.viwe__map > p {
+  font-size: 16px;
+  color: #ddd1d1;
+  font-weight: bold;
+}
+
+.location {
+  background-color: brown;
+  width: 120px;
+  height: 35px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  /* background-color: transparent;
+  color: #ffd900;
+  border: 1px solid white; */
+}
+
+.mehendi {
+  padding: 20px;
+}
+
+.mehendi > img {
+  height: 250px;
+  width: 100%;
+}
+
+.invited {
+  width: 100%;
+  position: relative;
+}
+.invited > img {
+  width: 100%;
+}
+
+.invited > div {
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  color: white;
+  line-height: 0.3;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
