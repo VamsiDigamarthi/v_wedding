@@ -22,21 +22,21 @@ export const StartScreen = () => {
         <div>
           <img
             className="start__image"
-            src="https://images.squarespace-cdn.com/content/v1/58d1b3ff1b631bb1893d108d/1664462775843-ZPU9KK9HJ8R97KZ6DDG7/unsplash-image-1Bs2sZ9fD2Q.jpg?format=2500w"
+            src="https://vama.app/blog/wp-content/uploads/2022/08/who-was-lord-krishnas-true-love.jpg"
             alt=""
           />
         </div>
         <div>
           <img
             className="start__image"
-            src="https://images.squarespace-cdn.com/content/v1/58d1b3ff1b631bb1893d108d/1664462775843-ZPU9KK9HJ8R97KZ6DDG7/unsplash-image-1Bs2sZ9fD2Q.jpg?format=2500w"
+            src="https://www.crafttrip.in/image/cache/catalog/radha-krishna/lord-krishna-radha-art-painting-divine-love-wall-canvas-800x534.jpeg"
             alt=""
           />
         </div>
         <div>
           <img
             className="start__image"
-            src="https://images.squarespace-cdn.com/content/v1/58d1b3ff1b631bb1893d108d/1664462775843-ZPU9KK9HJ8R97KZ6DDG7/unsplash-image-1Bs2sZ9fD2Q.jpg?format=2500w"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOA9RCkaW6s7xdU8mBatn6shcBzmhZlk3ew&usqp=CAU"
             alt=""
           />
         </div>
@@ -66,15 +66,15 @@ export const StartScreen = () => {
         <img src="images/flower.png" alt="" />
       </div>
       <div className="start_-_name">
-        <h1>Mr.Manu</h1>
+        <h1>Ms.Manu</h1>
         <img
-          src="https://crystallinestudio.com/imgBanner/81-crystalline-banner.jpg"
+          src="https://i.pinimg.com/originals/39/a0/ff/39a0ffcfae6cf74efe08dc6d72d01967.jpg"
           alt=""
         />
       </div>
       <div className="start_-_name dd">
         <img
-          src="https://crystallinestudio.com/imgBanner/81-crystalline-banner.jpg"
+          src="https://images.firstpost.com/wp-content/uploads/2023/09/Untitled-design-2023-09-04T135920.245.jpg"
           alt=""
         />
         <h1>Mr.Hanu</h1>
@@ -90,16 +90,19 @@ export const StartScreen = () => {
         <h1>Functions</h1>
         <img src="images/cal.png.png" alt="" />
       </div>
-      <div className="viwe__map">
+
+      <div className="viwe__map sss">
         <h2>Naandi Punyaha</h2>
-        <p>March 6 2023, Monday</p>
-        <p>11.30 AM</p>
+
         <p>
-          Venue : <span>Grooms Residence</span>
+          Venue : <span>Raj & Sri Convention Hall</span>
         </p>
-        <Link to="location">
-          <button className="location">Location</button>
-        </Link>
+        <div>
+          <span>Thadepalli Gudam</span>
+          <Link to="location">
+            <button className="location">Location</button>
+          </Link>
+        </div>
         <img src="images/d.png" alt="" />
       </div>
       <div className="mehendi">
@@ -108,16 +111,19 @@ export const StartScreen = () => {
           alt=""
         />
       </div>
-      <div className="viwe__map">
+
+      <div className="viwe__map sss">
         <h2>Mehendi</h2>
-        <p>March 6 2023, Monday</p>
-        <p>11.30 AM</p>
+
         <p>
-          Venue : <span>Grooms Residence</span>
+          Venue : <span>jalikakinada</span>
         </p>
-        <Link to="location">
-          <button className="location">Location</button>
-        </Link>
+        <div>
+          <span>At Thadepalli Gudam</span>
+          <Link to="location">
+            <button className="location">Location</button>
+          </Link>
+        </div>
         <img src="images/d.png" alt="" />
       </div>
       {/* weddings */}
@@ -127,16 +133,20 @@ export const StartScreen = () => {
           alt=""
         />
       </div>
-      <div className="viwe__map">
+
+      <div className="viwe__map sss">
         <h2>Wedding</h2>
-        <p>March 6 2023, Monday</p>
-        <p>11.30 AM</p>
+        <p>November 11 2023, Sunday</p>
+        <p>09.41 AM</p>
         <p>
-          Venue : <span>Grooms Residence</span>
+          Venue : <span>Raj & Sri Convention Hall</span>
         </p>
-        <Link to="location">
-          <button className="location">Location</button>
-        </Link>
+        <div>
+          <span>Thadepalli Gudam</span>
+          <Link to="location">
+            <button className="location">Location</button>
+          </Link>
+        </div>
         <img src="images/d.png" alt="" />
       </div>
       {/* Lunch */}
